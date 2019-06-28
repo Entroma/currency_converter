@@ -1,6 +1,6 @@
 const currency_store_name = 'currencies';
 const conversion_store_name = 'conversions';
-const currency_query = 'https://free.currencyconverterapi.com/api/v5/currencies';
+const currency_query = 'https://free.currencyconverterapi.com/api/v6/currencies?apiKey=e8ab832e1eaa58e02e96';
 
 //let deffered_prompt;
 
@@ -179,7 +179,7 @@ function fetch_conversion(from_currency = '', to_currency = ''){
     const query = `${from_currency}_${to_currency}`;
     const query2 = `${to_currency}_${from_currency}`;
     let res = 0;
-    const query_url = `https://free.currencyconverterapi.com/api/v5/convert?q=${query},${query2}&compact=ultra`;
+    const query_url = `https://free.currencyconverterapi.com/api/v6/convert?q=${query},${query2}&compact=ultra&apiKey=e8ab832e1eaa58e02e96`;
     fetch(query_url).then(response => {if(response.ok) return response.json()}).then(conversion => {
         res = conversion[query];
         // show the user
