@@ -18,8 +18,8 @@
       "type": "image/png"
     },
     {
-      "src": "/images/icons/icon-144.png",
-      "type": "image/png",
+      "src": "/images/icons/icon-144.jpg",
+      "type": "image/jpg",
       "sizes": "144x144"
     },
     {
@@ -43,7 +43,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/procurrency/?utm_source=a2hs",
+  "start_url": "/currency_converter/?utm_source=a2hs",
   "background_color": "#cfd8dc",
   "display": "standalone",
   "scope": "/currency_converter/",
