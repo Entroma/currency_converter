@@ -46,7 +46,7 @@
   "start_url": "/currency_converter/?utm_source=a2hs",
   "background_color": "#cfd8dc",
   "display": "standalone",
-  "scope": "/currency_converter/",
+  "scope": "/",
   "theme_color": "#3367D6", 
   "orientation": "portrait",
   "description": "A progressive web app that allows you to convert currencies and caches previously converted currencies for offline convertions"
